@@ -16,7 +16,7 @@ test('Modertor upload file', async ({ page }) => {
 
     await page.locator('#kategorija').selectOption('605');
 
-    await page.locator('#file').setInputFiles('upload2.7z')
+    await page.locator('#file').setInputFiles('upload.7z')
 
     await expect(page).toHaveTitle('Moderator');
 
