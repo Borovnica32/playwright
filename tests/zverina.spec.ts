@@ -87,6 +87,3 @@ test('Download file from search', async ({ page }) => {
   expect(fileName).toContain(searchFileName);
 
 });
-
-
-
