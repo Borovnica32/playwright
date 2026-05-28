@@ -8,3 +8,5 @@ node_modules/
 /playwright/.auth/
 /downloads/
 auth.json
+upload.7z
+upload.txt
