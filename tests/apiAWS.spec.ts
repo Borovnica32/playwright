@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
-test('GET Samsonite sets API', async ({ request }) => {
-  const dataFrom = 'Samso1nite';
+test('GET sets from API', async ({ request }) => {
+  const dataFrom = 'Samsonite';
 
   const start = Date.now();
 
